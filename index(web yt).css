@@ -1,158 +1,161 @@
 /* margin ddan padding dibuat 0 supaya dia jadi polos tanpa ada gaya bawakan dri html jdi hanya bermain gaya di css */
-*{
-    padding: 0px; 
-    margin: 0px;
-    text-decoration:none;
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
 }
-body{
-    font-family: sans-serif;
-    margin: 0px;
-    padding: 0px;
-
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
-.wrapper{
-    position: relative;
-    width: 1100px;
-    margin: auto;
+.wrapper {
+  position: relative;
+  width: 1100px;
+  margin: auto;
 }
-.logo a{
-    font-size:60px;
-    font-weight: bold;
-    color:chartreuse;
-    float: left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(62, 62, 161);
+.logo {
+  display: inline-block;
 }
-.menu{
-    float:right;
-    
+.logo a {
+  font-size: 60px;
+  font-weight: bold;
+  color: chartreuse;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(62, 62, 161);
+}
+.logo img {
+  margin-top: 5%;
+  margin-bottom: -20px;
+  width: 200px;
+  height: auto;
+}
+.menu a {
+  text-decoration: none;
+  color: white; /* Warna teks putih */
+}
+.menu {
+  float: right;
 }
 /* nav itu adalah navigasi nya di bawah ini  untuk mengatur nav secarah keseluruhan */
-nav{
-    width: 100%;
-    margin: auto;
-    display:flex;
-    line-height:80px;
-    position:sticky;
-    position:-webkit-sticky;
-    top:0;
-    z-index: 1;
-    background: white;
-    box-shadow:  1px 1px 8px  rgb(62, 62, 161);
-
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  background: #532f77;
+  box-shadow: 1px 1px 8px rgb(62, 62, 161);
+  color: white;
 }
-nav ul{
-    list-style-type:none;
-    overflow: hidden;
-    padding:0;
-    margin: 0;
-    overflow: hidden;
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
-nav ul li{
-    float: left;
-
+nav ul li {
+  float: left;
 }
-nav ul li a{ /* maksudnya  dari tag nav ke li ke a. yg diatur adalah a nya tpi  a nya yg di dalam tag nav dan ul li. bukamn a yg lain */
-    color:black;
-    font-weight:bold;
-    text-align:center;
-    padding:0px 16px 0px 16px; /* itu posisi nya dari atas kanan bawah kiri bisa disingkat juga jadi 0px 16px */
-    text-decoration:none;
-
+nav ul li a {
+  /* maksudnya  dari tag nav ke li ke a. yg diatur adalah a nya tpi  a nya yg di dalam tag nav dan ul li. bukamn a yg lain */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px; /* itu posisi nya dari atas kanan bawah kiri bisa disingkat juga jadi 0px 16px */
+  text-decoration: none;
 }
-nav ul li a:hover{
-    text-decoration:none;
-    color: chartreuse;
-
+nav ul li a:hover {
+  text-decoration: none;
+  color: chartreuse;
 }
-section{
-    margin: auto;
-    display: flex;
-    margin-bottom:50px;
-
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
 }
-.kolom{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left:30px;
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
 }
-.kolom .deskripsi{
-    font-size: 20px;
-    font-weight:bold;
-    font-family:'comic sans ms';
-    color:rgb(62, 62, 161);
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: rgb(62, 62, 161);
 }
-h2{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 45px;
-    font-weight:800;
-    margin-bottom: 30px;
-    color:rgb(62, 62, 161) ;
-    width:100%;
-    line-height: 50px;
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: rgb(62, 62, 161);
+  width: 100%;
+  line-height: 50px;
 }
-img{
+/* img{
     border-radius: 80%;
+} */
+.tbl-biru {
+  background: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
 }
-.tbl-biru{
-    background:#3f72af;
-    border-radius:20px ;
-    margin-top: 20px;
-    padding: 15px 20px;
-    color: white;
-    font-weight: bold;
-    
+.tbl-biru:hover {
+  text-decoration: none;
+  background: #f42069;
 }
-.tbl-biru:hover{
-    text-decoration:none;
-    background:#F42069;  
-
+.tbl-pink {
+  background: #f42069;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
 }
-.tbl-pink{
-    background:#F42069;  
-    border-radius:20px ;
-    margin-top: 20px;
-    padding: 15px 20px;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
+.tbl-pink:hover {
+  background: #3f72af;
 }
-.tbl-pink:hover{
-    background:#3f72af;
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
 }
-p{
-    margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
-}
-.tengah{
-    text-align: center;
-    width:100%;
-} 
-
-.tutor-list{
-    width:100%;
-    position: relative;
-    display:flex;
-    flex-wrap:wrap;
-
-}   
-.kartu-tutor{
-    width:20%;
-    margin: 0  auto;
+.tengah {
+  text-align: center;
+  width: 100%;
 }
 
-.kartu-tutor img{
-    width:80%;
-    border-radius:50%; 
-
-
+.tutor-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
-.kartu-tutor p{
-    font-family:'comic sans ms';
-    font-weight:800;
-    font-size:25px;
-    text-align:center;
-    color:rgb(62, 62, 161);
+.kartu-tutor {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-tutor img {
+  width: 80%;
+  border-radius: 50%;
+}
+.kartu-tutor p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(62, 62, 161);
 }
 /*
 .kartu-tutor{
@@ -173,96 +176,89 @@ table{
     padding-right:10%;
     display: block;
 }*/
-.partner-list{
-    width:100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}    
-.kartu-partner{
-    width: 20%;
-    margin: 0 auto;
-
+.partner-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
-.kartu-partner img{
-    width:70%;
-    border-radius:50%;
+.kartu-partner {
+  width: 20%;
+  margin: 0 auto;
 }
-#contact{
-    background: #dedede;
-    padding:50px 0px ;
-
+.kartu-partner img {
+  width: 70%;
+  border-radius: 50%;
 }
-.footer{
-    width:100%;
-    position:relative;
-    display:flex;
-    flex-wrap: wrap;
-    margin:auto;
-
+#contact {
+  background: #dedede;
+  padding: 50px 0px;
 }
-.footer-section{
-    width:20%;
-    margin: 0 auto;
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
 }
-h3{
-    font-family:'comic sans ms' ;
-    font-weight:800;
-    font-size:30px;
-    margin-bottom:20px;
-    color:rgb(62, 62, 161) ;
-    width:100%;
-    line-height: 50px;
-
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
 }
-#copyright{
-    text-align: center;
-    width: 100%;
-    Padding:50px 0px;
-    margin-top:50px;
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(62, 62, 161);
+  width: 100%;
+  line-height: 50px;
+}
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 991.98px) {
-    .wrapper{
-        width:90%;
-    }
-    .logo a{
-        display: block;
-        width:100%;
-        text-align: center;
-    }
-    nav .menu{
-        width:100%;
-        margin:0;
-    }
-    nav .menu ul{
-        text-align:center;
-        margin: auto;
-        line-height:60px;
-    }
-    nav .menu ul li{
-        display:inline-block ;
-        float:none;
- 
-    }
-    section{
-        display:block;
-    }
-    section img{
-        display:block;
-        width:100%;
-        height:auto;
-    }
-    .kartu-tutor {
-        width:50%;
-        
-    }
-    .kartu-partner{
-        width:30%;
-
-    }
-    .footer .footer-section{
-        padding-left: 10px;
-        margin:10px 50px;
-    }
+  .wrapper {
+    width: 90%;
+  }
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+  section {
+    display: block;
+  }
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .kartu-tutor {
+    width: 50%;
+  }
+  .kartu-partner {
+    width: 30%;
+  }
+  .footer .footer-section {
+    padding-left: 10px;
+    margin: 10px 50px;
+  }
 }
